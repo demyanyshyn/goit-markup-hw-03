@@ -207,8 +207,21 @@ justify-content: space-between;
 }
 
 
-.advantages .hide {
+/* .visually-hidden {
   visibility: hidden;
+} */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .item 
@@ -310,6 +323,7 @@ align-content:  flex-start;
 }
 
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
@@ -323,6 +337,9 @@ align-content:  flex-start;
   padding-left: 24px;
 }
 
+.footer a{
+  display: inline-block;
+}
 .footer .container .logo a,
 .footer .container .logo
 {
