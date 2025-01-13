@@ -1,0 +1,153 @@
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+    background: #fff;
+}
+
+a {
+text-decoration: none;
+font-size: 12px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
+}
+
+ul, li{
+  list-style-type: none;
+}
+
+.logo, .logo a{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#4d5ae5;
+}
+
+.logo-color,
+.logo-color a {
+  color: #2e2f42;
+}
+
+.logo-footer,
+.logo-footer a {
+color: #f4f4fd;
+}
+.navigation, .navigation a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+
+.navigation:hover{
+  color: #404bbf;
+}
+
+.navigation:focus {
+  color: #404bbf;
+}
+
+.contacts{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;  
+  color: #434455;
+  font-style: normal;
+}
+.contacts:hover, .contacts:focus{
+  color: #404bbf;
+}
+
+.banner{
+background: #2e2f42;
+}
+
+.banner-title{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #fff;
+text-align: center
+}
+
+.banner-button{
+background: #4d5ae5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+cursor: pointer;
+}
+
+.banner-button:hover{
+background: #404bbf;
+}
+
+.banner-button:focus {
+background: #404bbf;
+}
+
+.adv-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+background-color: #ffffff;
+}
+
+.adv-title, .team-title,
+.portfolio-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.team-li{
+  background-color: #FFFFFF;
+}
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+
+.portfolio {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
