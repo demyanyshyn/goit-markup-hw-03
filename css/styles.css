@@ -36,9 +36,12 @@ ul, li{
 
 header{
   max-height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 0 15px;
 }
 
 .container {
+  width: 1158px;
   max-width: 100vh;
   padding: 120px 0;
   margin-left: auto;
@@ -61,7 +64,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
-padding: 24px 72px 24px 24px;
+padding: 24px 24px 24px 24px;
+margin-right: 76px;
 
 }
 
@@ -79,7 +83,7 @@ padding: 16px 0;
 nav {
   display:flex;
   flex-direction: row;
-
+  align-items: center
 }
 
 .navigation, .navigation a{
