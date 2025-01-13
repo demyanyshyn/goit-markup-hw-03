@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-img {
-  overflow-clip-margin: unset;
-}
-
 body{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -196,7 +192,8 @@ background: #404bbf;
 background: #404bbf;
 }
 
-.advantages {
+.advantages, 
+.portfolio {
   padding: 120px 0;
 }
 
@@ -210,13 +207,13 @@ justify-content: space-between;
 }
 
 
-.advantages .title {
-  display: none;
+.advantages .hide {
+  visibility: hidden;
 }
 
 .item 
 {
-width: calc((100%-72px) / 4);
+max-width: calc((100% - 72px) / 4);
 }
 
 .adv-p {
@@ -235,15 +232,18 @@ background-color: #ffffff;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 32px 16px 8px 16px;
-  padding-bottom: 8px;
-  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team {
   background-color: #F4F4FD;
   width: 100%;
+  padding: 120px 0;
   
+}
+
+.name{
+  padding: 32px 0;
 }
 
 .team-li{
@@ -253,7 +253,7 @@ background-color: #ffffff;
 
 .container .team-li{
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  /* padding: 0px 0px 32px 0px; */
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   text-align: center;
@@ -271,7 +271,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .portfolio .container ul {
@@ -280,7 +280,7 @@ padding-bottom: 72px;
   gap: 48px 24px;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: calc((100%-48px)/3);
+  max-width: calc((100% - 48px) / 3);
 }
 
 
