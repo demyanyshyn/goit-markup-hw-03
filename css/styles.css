@@ -99,6 +99,7 @@ nav {
 .nav-ul
 {
   display: flex;
+  gap: 40px;
   padding: 0;
 }
 
@@ -117,11 +118,10 @@ nav {
   color: #2e2f42;
 }
 
-/* .menu {
-    display: flex;
-      gap: 40px;
-  padding: 24px 0;
-} */
+.menu {
+  display: flex;
+  padding: 24px 0 24px;
+}
 
 .menu,
 .navigation li,
