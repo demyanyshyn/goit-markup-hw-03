@@ -226,7 +226,8 @@ background-color: #ffffff;
 }
 
 .adv-title, .team-title,
-.portfolio-title{
+.portfolio-title
+{
   font-weight: 500;  
   font-size: 20px;
   line-height: 1.2;
@@ -253,7 +254,6 @@ background-color: #ffffff;
 
 .container .team-li{
   border-radius: 0 0 4px 4px;
-  /* padding: 0px 0px 32px 0px; */
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   text-align: center;
@@ -280,20 +280,26 @@ margin-bottom: 72px;
   gap: 48px 24px;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: calc((100% - 48px) / 3);
 }
 
-
 .portfolio p{
-margin: 0 16px 32px 16px;
+/* margin: 0 16px 32px 16px; */
 }
 
 .portfolio {
   background-color: #fff;
 }
 
-.portfolio li{
+.portfolio li,
+{
   border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
+}
+
+.port-item{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
 
 .footer .container{
