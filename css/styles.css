@@ -84,20 +84,14 @@ margin-right: 76px;
   color: #2e2f42;
 }
 
-.logo-footer,
-.logo-footer a
-{
-color: #f4f4fd;
-padding: 16px 0;
-}
-
 nav {
   display:flex;
   flex-direction: row;
   align-items: center;
 }
 
-.navigation, .navigation a
+.navigation,
+.navigation a
 {
   display: flex;
   gap: 40px;
@@ -359,15 +353,20 @@ align-content:  flex-start;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-left: 24px;
 }
 
-.footer a
+.logo-footer,
+.logo-footer a
 {
-  display: inline-block;
+color: #f4f4fd;
+/* padding: 16px 0; */
+display: inline-block;
 }
+
 .footer .container .logo a,
 .footer .container .logo
 {
-  padding: 16px 24px;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 16px;
 }
