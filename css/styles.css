@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img {
+  overflow-clip-margin: unset;
+}
+
 body{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
