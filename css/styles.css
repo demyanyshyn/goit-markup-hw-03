@@ -369,8 +369,10 @@ align-content:  flex-start;
 color: #f4f4fd;
 }
 
-.logo-link{
-font-family: "Raleway", sans-serif;
+.logo-link
+{
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -379,7 +381,6 @@ font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   padding: 24px 24px 24px 24px;
   margin-right: 76px;
-  display: inline-block;
 }
 
 .footer .logo a,
