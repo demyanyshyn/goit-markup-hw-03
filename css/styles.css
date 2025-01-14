@@ -343,7 +343,7 @@ border-top: none;
 
 .footer .container
 {
-display: flex;
+max-width: 100hv;
 flex-direction: column;
 align-content:  flex-start;
 }
